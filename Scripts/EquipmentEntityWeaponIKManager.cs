@@ -100,7 +100,6 @@ namespace MultiplayerARPG
                     rightHandWeaponLimbIK.solver.IKPosition = rightHandWeapon.anotherHandTransform.position;
                     rightHandWeaponLimbIK.solver.IKRotation = rightHandWeapon.anotherHandTransform.rotation;
                     rightHandWeaponLimbIK.solver.Update();
-                    Debug.LogError("Updating");
                 }
                 return;
             }
